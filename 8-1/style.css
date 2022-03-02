@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.li-box {
+  width: 960px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.boxes {
+  padding: 50px;
+  width: 960px;
+  display: flex;
+  justify-content: center;
+}
+
+.box{
+  
+}
+
+.box:nth-child(1) {
+  height: 200px;
+  width: 30%;
+  margin-right: 5%;
+  background-color: orange;
+}
+
+.box:nth-child(2) {
+  height: 200px;
+  width: 30%;
+  margin-right: 5%;
+  background-color: bisque;
+}
