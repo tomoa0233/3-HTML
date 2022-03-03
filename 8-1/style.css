@@ -11,7 +11,16 @@
 }
 
 .li-box {
-  padding: 50px 0;
+  padding-top: 50px;
+}
+
+li {
+  list-style: none;
+  padding: 20px 0 20px 20px;
+}
+
+li:nth-child(odd) {
+  background-color: gray;
 }
 
 .boxes {
