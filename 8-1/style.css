@@ -4,33 +4,48 @@
   box-sizing: border-box;
 }
 
-.li-box {
+.main {
   width: 960px;
+  justify-content: center;
   margin: 0 auto;
-  padding: 50px;
+}
+
+.li-box {
+  padding: 50px 0;
 }
 
 .boxes {
-  padding: 50px;
-  width: 960px;
+  padding-top: 50px;
   display: flex;
   justify-content: center;
 }
 
-.box{
-  
+.box-color {
+  background-color: yellow;
 }
 
-.box:nth-child(1) {
-  height: 200px;
-  width: 30%;
-  margin-right: 5%;
+.box-color:nth-child(1) {
   background-color: orange;
 }
 
-.box:nth-child(2) {
-  height: 200px;
-  width: 30%;
+.box-side {
   margin-right: 5%;
-  background-color: bisque;
+}
+
+.box-size {
+  width: 30%;
+  height: 200px;
+}
+
+.boxes2 {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.boxes3 {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
